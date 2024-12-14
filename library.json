@@ -1,0 +1,20 @@
+{
+    "name": "OLED_I2C",
+    "version": "1.0.0",
+    "description": "I2Cで通信するタイプの有機ELディスプレイOLEDを制御するライブラリ",
+    "keywords": ["OLED", "I2C"],
+    "authors": [
+      {
+        "name": "Yunoshin Tani",
+        "email": "yunoshin.tani.0819@gmail.com",
+        "url": "https://github.com/YunoshinTani"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/YunoshinTani/I2C_OLED.git"
+    },
+    "frameworks": ["mbed"],
+    "platforms": ["ststm32"]
+  }
+  
