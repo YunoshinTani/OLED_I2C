@@ -78,6 +78,11 @@ public:
      */
     void draw_QR(uint8_t POINT_X, uint8_t POINT_Y);
 
+    /**
+     * @brief デバッグ用関数
+     */
+    void debug_OLED();
+
 private:
     /**
      * @brief I2C通信用オブジェクト

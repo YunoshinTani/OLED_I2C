@@ -128,3 +128,16 @@ void OLED_I2C::draw_QR(uint8_t POINT_X, uint8_t POINT_Y)
         }
     }
 }
+
+void OLED_I2C::debug_OLED()
+{
+    printf("%d\n", test_OLED());
+
+    draw_text("PAGE 1", 80, 0);
+    draw_text("COPYRIGHT", 0, 0);
+    draw_text("Shun", 10, 6);
+    draw_text("Yotsuya", 30, 7);
+
+    draw_text("git", 100, 7);
+    draw_QR(90,2);
+}
